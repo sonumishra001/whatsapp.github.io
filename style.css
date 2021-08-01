@@ -1,0 +1,181 @@
+body{
+  scroll-behavior: smooth;
+  height: 1500px;
+  user-select: none;
+}
+.header{
+  background: #075e54;
+  width: 100%;
+  padding: 10px;
+  top: -20px;
+  left: -10px;
+  position: fixed;
+  height: 285px;
+}
+.dots{
+  position: fixed;
+  height: 55px;
+  width: 55px;
+  left: 900px;
+  top: 60px;
+}
+h1{
+  position: fixed;
+  top: 5px;
+  font-size: 70px;
+  left: 10px;
+  color: #ffffff;
+  padding: 15px;
+}
+.cam-icon{
+  position: fixed;
+  height: 85px;
+  left: 60px;
+  width: 85px;
+  top: 195px;
+}
+ul{
+  padding: 3px;
+  text-align: center;
+  position: fixed;
+  height: 60px;
+  width: 100px;
+  color: #075e54;
+}
+.chats{
+  position: fixed;
+  left: 200px;
+  top: 220px;
+  background: #075e54;
+  font-size: 40px;
+  color: #ffffff;
+}
+.status{
+  position: fixed;
+  left: 450px;
+  top: 220px;
+  background: #075e54;
+  border-color: #075e54;
+  font-size: 40px;
+  color: #ffffff;
+}
+.calls{
+  position: fixed;
+  left: 750px;
+  top: 220px;
+  background: #075e54;
+  border-color: #075e54;
+  font-size: 40px;
+  color: #ffffff;
+}
+.chats:hover,.status:hover,.calls:hover{
+  height: 60px;
+  width: 200px;
+  background: #cccccc;
+  border-radius: 30px;
+}
+.search-icon{
+  position: fixed;
+  height: 50px;
+  left: 830px;
+  width: 50px;
+  top: 60px;
+}
+.chat{
+  position: fixed;
+  top: 285px;
+  left: -15px;
+  color: white;
+  padding: 10px;
+  height: 1500px;
+  width: 100%;
+  overflow: scroll;
+  border: 1px solid #ccc;
+}
+.dp{
+  position: relative;
+  height: 150px;
+  left: 20px;
+  background: #ccc;
+  width: 150px;
+  border-radius: 50%;
+}
+.name{
+  position: relative;
+  left: 200px;
+  top: -190px;
+  color: #000000;
+  width: 40%;
+  font-size: 55px;
+}
+.msg{
+  position: relative;
+  left: 200px;
+  top: -240px;
+  color: #666666;
+  width: 60%;
+  font-size: 43px;
+}
+.typ-msg{
+  position: relative;
+  left: 200px;
+  top: -240px;
+  color: #00cc00;
+  width: 60%;
+  font-size: 43px;
+}
+.line{
+  position: relative;
+  left: 200px;
+  top: -435px;
+  width: 75%;
+  height: 2px;
+  background: #cccccc;
+}
+.msg-count{
+  position: relative;
+  color: #ffffff;
+  left: 878px;
+  top: -382px;
+  z-index: 1;
+  text-align: center;
+  font-size: 32px;
+  width: 4%;
+}
+.time{
+  position: relative;
+  font-size: 32px;
+  top: -380px;
+  left: 800px;
+  color: #00cc00;
+  width: 18%;
+}
+.green-dot{
+  position: relative;
+  top: -460px;
+  left: 870px;
+  background: #00cc00;
+  height: 53px;
+  width: 53px;
+  border-radius: 50%;
+}
+.checkmark_stem{
+    position: absolute;
+    width:3px;
+    height:9px;
+    background-color:#ccc;
+    left:11px;
+    top:6px;
+  }
+
+
+  #tick-mark {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.c1{
+  height: 200px;
+}
